@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.container {
+  background-image: linear-gradient(#fffdb5, #caf4ff, #ffbf78);
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.searchbar {
+  display: flex;
+  justify-content: center;
+}
+
+.innerbarsearch {
+  border-width: 1px;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+  border-radius: 12px;
+  border-style: solid;
+}
+input {
+  width: 400px;
+  outline: none;
+  background-color: transparent;
+  border-width: 0px;
+}
+
+@media screen and (max-width: 577px) {
+  .container {
+    background-image: linear-gradient(#fffdb5, #caf4ff, #ffbf78);
+    padding: 20px;
+    overflow: hidden;
+  }
+  .innerbarsearch {
+    border-width: 1px;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    border-radius: 12px;
+    border-style: solid;
+  }
+  input {
+    width: 200px;
+    outline: none;
+    background-color: transparent;
+    border-width: 0px;
+  }
+}
+
+ul {
+  display: flex;
+}
+.tabsItems {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.imgCards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ImageCards {
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,12 @@
+/* Write your CSS here */
+
+li {
+  list-style: none;
+  margin-right: 10px;
+}
+
+button {
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+}
